@@ -1,0 +1,20 @@
+.container_input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: .8em;
+    margin: 0em 6em;
+    /* width: 20%; */
+    /* height: 80px; */
+    flex: 100%;
+    /* background-color: transparent; */
+}
+
+.container_input>input {
+    height: 80px;
+    width: 20%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 28px;
+}

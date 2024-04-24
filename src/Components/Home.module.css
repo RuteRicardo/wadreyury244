@@ -1,0 +1,46 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #171717;
+}
+
+.home>div {
+    position: relative;
+    width: 300px;
+    margin: 2em;
+}
+
+.home>div>img {
+    width: 100%;
+}
+
+
+.home>div>article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(41, 41, 41, 0.8);
+    color: aliceblue;
+    /* Fundo do texto */
+    padding: 10px;
+  
+
+}
+
+.home>div>article:hover {
+   opacity: 1;
+   /* top: 400px; */
+   z-index: 1;
+   /* transform: scale(1.2); */
+}
+
+.home>div>article>h4 {
+    text-align: justify;
+    color: rgb(255, 242, 0);
+}
+
+.home span {
+    color: rgb(255, 0, 0);
+}
